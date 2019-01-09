@@ -2,7 +2,7 @@
  * Compile po to json
  * @author zuojiazi@vip.qq.com
  */
-import { Gettext } from './helper';
+import { Gettext } from '../helper';
 export declare class Compiler {
     private options;
     constructor(options?: Gettext.CompileOptions);

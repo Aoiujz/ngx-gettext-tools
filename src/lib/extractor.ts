@@ -5,7 +5,7 @@
 
 import { GettextExtractor, JsExtractors, HtmlExtractors } from 'gettext-extractor';
 import { join } from 'path';
-import { Gettext } from './helper';
+import { Gettext } from '../helper';
 
 export class Extractor {
     private options: Gettext.ExtractorOptions = {

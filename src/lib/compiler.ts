@@ -7,7 +7,7 @@ import * as PO from 'pofile';
 import * as glob from 'glob';
 import * as fs from 'fs';
 import { join } from 'path';
-import { I18n, Gettext, DEFAULT_CTX } from './helper';
+import { I18n, Gettext, DEFAULT_CTX } from '../helper';
 
 export class Compiler {
     private options: Gettext.CompileOptions = {

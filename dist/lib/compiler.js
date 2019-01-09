@@ -43,7 +43,7 @@ var PO = require("pofile");
 var glob = require("glob");
 var fs = require("fs");
 var path_1 = require("path");
-var helper_1 = require("./helper");
+var helper_1 = require("../helper");
 var Compiler = /** @class */ (function () {
     function Compiler(options) {
         this.options = {
