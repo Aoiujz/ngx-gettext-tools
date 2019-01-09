@@ -1,0 +1,34 @@
+{
+  "name": "ngx-gettext-tools",
+  "version": "1.0.0",
+  "description": "Gettext for Angular 7+ Tools",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aoiujz/ngx-gettext-tools.git"
+  },
+  "keywords": [
+    "Angular",
+    "Gettext"
+  ],
+  "author": "zuojiazi@vip.qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aoiujz/ngx-gettext-tools/issues"
+  },
+  "homepage": "https://github.com/Aoiujz/ngx-gettext-tools#readme",
+  "dependencies": {
+    "gettext-extractor": "^3.4.2",
+    "glob": "^7.1.3",
+    "pofile": "^1.0.11",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/sprintf-js": "^1.1.1"
+  }
+}
